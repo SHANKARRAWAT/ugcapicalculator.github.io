@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in </title>
+    <link rel="stylesheet" href="/style.css" class="css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+   
+    <header>
+        <h2 id="h2">Log In Form </h2>
+    </header>
+    <main id="login">
+        <form action="/auth/login"  name="myform" method="post"  onsubmit="return validation()" >
+            <div class="height">
+                <label for="name" id="un">
+             UserName:<input type="text" placeholder="enter yours user name" name="name" id="uname"
+                        class="box"><span id="error" class="er"></span>
+                </label>
+            </div>
+            <div class="height" >
+                <label for="psw">
+                    PassWord:<input type="password" placeholder="enter yours password" name="password" id="psw"
+                        class="box"><span id ="err" class="er"></span>
+                </label>
+            </div>
+            <div class="height" id="sisu">
+               <span><input type="submit" value="Sign In" class="si"  ></span>
+               <span><input type="button" value="Sign Up" class="si" id="si" onclick="signup()"></span>
+            </div>
+              <div id="emptyerror"></div>
+        </form>
+         {{#if message}}
+      <h4 class="alert aler-danger mt-4 "> {{message}} </h4>
+    {{/if}}
+
+    </main>
+    <footer>
+        <div id="foot">
+            <ul class="ft">
+                <i>Group id:CSEG66</i>
+                <i>Batch:2019 to 2023</i>
+            </ul>
+        </div>
+</body>
+<script src="/javascript.js"></script>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API score for college</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h3>API score for the college</h3>
+    </header>
+    <main>
+        <section>
+            <table>
+                <thead>
+                          <tr>
+                              <th>S.N</th>
+                              <th>degree</th>
+                              <th>percentage</th>
+                             <th>marksobtained</th>
+                         </tr>
+                </thead>
+      <tbody>
+                    <tr class="tbox">
+                        <td>1</td>
+                        <td><input type="text" id="g" placeholder="graduation"></td>
+                        <td><input type="number" placeholder=" enter percentage" name="gpercent" id="1" min="10" max="100"></td>
+                        <td><input type="number" name="resultpercent" id="c1"> </td>
+                    </tr>
+                    <tr class="tbox">
+                        <td>2</td>
+                        <td><input type="text" id="g" placeholder=" post graduation"></td>
+                        <td><input type="number" placeholder="enter percentage" name="pgpercent" id="2" min="10" max="100"> </td>
+                        <td><input type="number" name="mypercent" id="c2"> </td>
+                    </tr>
+                    <tr class="tbox">
+                        <td>3</td>
+                        <td> <input type="checkbox" name="mphil" id="mphil" >M.phil </td>
+                        <td><input type="number" placeholder="enter percentage" name="mphilpercent" id="3" min="10" max="100"></td>
+                        <td><input type="number" name="mypercent" id="c3"> </td>
+                    </tr>
+                    <tr class="tbox">
+                        <td>4</td>
+                        <td><input type="checkbox" name="cb" id="cb4">P.hd</td>
+                        <td><input type="number" name="n" id="4" min="10" max="100"></td>
+                        <td><input type="number" name="phdpercent" id="c4"></td>
+                    </tr>
+                    <tr class="tbox">
+                        <td>5</td>
+                        <td>
+                            <select name="se5" id="s5" class="tbox">
+                                <option value="no value">select yours eligibility</option>
+                                <option value="NET with JRF"> NET with JRF</option>
+                                <option value="NET">NET</option>
+                                <option value="SLET/SET">SLET/SET</option>
+                            </select>
+                        </td>
+                        <td><input type="number"  name="percent" id="5" min="10" max="100"></td>
+                        <td><input type="number" name="netpercent" id="c5"> </td>
+                    </tr>
+                    <tr class="tbox">
+                        <td>6</td>
+                        <td> <select name="award" id="s6">
+                           <option value="no value">Awards</option>
+                            <option value="national level">national level</option>
+                            <option value="state level">state level</option>
+                        </select>  
+                       </td>
+                        <td><input type="number"  name="percent" id="6" min="10" max="100"></td>
+                        <td><input type="number" name="award" id="c6"> </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="button" value="calculate" onclick="calculate()" > </td>
+                        <td colspan="3"><input type="text" id="result"/>  </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+    </main>
+        <footer>
+            <div id="foot">
+                <ul class="ft">
+                    <i>Group id:CSEG66</i>
+                    <i>Batch:2019 to 2023</i>
+                </ul>
+            </div>
+        </footer>  
+</body>
+<script src="/javascript.js"></script>
+</html>

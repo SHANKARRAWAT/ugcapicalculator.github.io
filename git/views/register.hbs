@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register page </title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h2 id="h2">Register Form </h2>
+</header>
+<main id="login">
+    <form action="/auth/register"  name="myform" method="post" >
+        <div class="height">
+            <label for="name" >
+         UserName:<input type="text" placeholder="enter yours user name" name="name" id="uname"
+                    class="box"><span id="error" class="er"></span>
+            </label>
+        </div>
+         <div class="height">
+            <label for="name" >
+         Email:<input type="text" placeholder="enter email" name="email" id="email"
+                    class="box"><span id="error" class="er"></span>
+            </label>
+        </div>
+        <div class="height" >
+            <label for="password" >
+                Password:<input type="password" placeholder="enter yours password" name="password" id="password"
+                    class="box"><span id ="err" class="er"></span>
+            </label>
+        </div>
+        <div class="height" >
+            <label for="passwordConfirm">
+                ConfirmPassword:<input type="password" placeholder="enter again" name="passwordConfirm" id="passwordConfirm"
+                    class="box"><span id ="err" class="er"></span>
+            </label>
+        </div>
+        <div class="height" id="sisu">
+            <input type="submit" value="Sign up" class="si" id="si">
+        </div>
+    </form>
+
+    {{#if message}}
+      <h4 class="alert aler-danger mt-4 "> {{message}} </h4>
+    {{/if}}
+
+</main>
+<footer>
+    <div id="foot">
+        <ul class="ft">
+            <i>Group id:CSEG66</i>
+            <i>Batch:2019 to 2023</i>
+        </ul>
+    </div>
+</body>
+<script src="/javascript.js"></script>
+</html>

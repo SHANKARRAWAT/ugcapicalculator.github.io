@@ -1,0 +1,234 @@
+/* index css */
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(186 210 211);
+}
+#h{ 
+    margin-left: 336px;
+    margin-top: 12px;
+}
+.nav{
+    background-color: #5755c3;
+    border-radius: 30px;
+}
+.nav li{
+    list-style: none;
+     float: left;
+    margin:12px ;
+    text-decoration: none;
+  
+}
+.nav ul{
+    overflow: auto;
+    width:50%;
+}
+
+.nav li a:hover{
+    color:black;
+ 
+}
+
+.nav ul a{
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+}
+li:visited{
+    color: black;
+}
+.list{
+    line-height:28px;
+}
+.paragraph{
+
+    border:3px solid rgb(49, 185, 219);
+   margin: 12px;
+   width: 45%;
+
+}
+#p1{
+    float:left;
+padding-left:29px;
+}
+
+#p2
+{
+float: right;
+padding: 8px;
+}
+#man{
+    clear:both;
+    line-height: 21px;;
+    padding: 30px;
+    margin-left: 26%;
+    margin-right: 29%;
+}
+
+#foot{
+   position: fixed;
+     background-color: #5755c3;
+    bottom: 0%;
+    text-align: center;
+    left:0;
+    width: 100%;
+    
+}
+.ft{
+   
+    color: aqua;
+}
+.mnh{
+    color:#280a62;
+}
+#manl{
+    margin-left: 12px;
+    line-height: 1.6em;
+    list-style: none;
+  background-color: rgb(112, 224, 215);
+}
+#man{
+    margin-top: 19%;
+}
+
+.lk:hover{
+     color:blue;
+    
+}
+.lk:active{
+    background-color: rgb(40, 21, 216);
+}
+#manl a{
+    text-decoration: none;
+    
+}
+
+/* log in css */
+#loginstart{
+    text-align: center;
+    color:lightblue;
+     font-size: medium;
+}
+#h2{
+    color: #632ad6;
+    margin-top:36px;
+    margin-left: 34px;
+    margin-bottom: 3px;
+}
+.er{
+    color: red;
+    font-size: small;
+}
+#login{
+    border: 2px  blue solid;
+    border-radius: 15px;
+    margin: 12px;
+    padding: 7px;
+}
+.form{
+    border:3px solid rgb(93, 88, 150);
+    margin-left:32px;
+    margin-right: 2%;
+    padding: 12;
+        
+}
+.height{
+    padding: 7px;
+    font-size:large;
+}
+.box{
+    font-size: medium;
+}
+#name
+{
+    margin-top:12px;
+}
+.si{
+    font-size: medium;
+    margin-left: 4px;
+    color: blue;
+    background-color: rgb(149,183,201);
+
+}
+.si:hover{
+    color:rgb(74, 12, 155);
+    background-color: #44b9dd;
+}
+
+#si{
+    background-color:rgb(149,183,201);
+}
+#su{
+    margin-left: 6px;
+}
+
+#sisu{
+    margin-right: 12px;
+}
+main{
+    margin-top: 12px;
+}
+/* after log in*/
+#afterlogin{
+    margin: 103px;
+    padding: 12px;;
+    background-size:auto;
+    text-align: center;
+    align-content: center;
+    border: 2px blue solid;
+}
+#nav{
+    text-align: center;
+    align-content: center;
+}
+#alin{
+    background-color: #1aacfa;
+}
+/* university  */
+.tbox{
+    font-size:large;
+
+}
+.att ul li{
+    text-decoration: none;
+}
+table{
+    border: 2px solid rgb(10, 9, 9);
+    margin:0% auto;
+    -webkit-border-vertical-spacing: 35px;
+    -webkit-border-horizontal-spacing:4px;
+    background-color: #a2cdd5;
+}
+thead tr{
+    background-color:#36deff;
+    font-size: larger;
+    font-weight: 400;
+}
+header h3{
+    margin-left:2%;
+    margin-top: 2%;
+    font-size: larger;
+    color: #441c94;
+    border-bottom:2px solid #5060eb;
+    width: fit-content;
+}
+table,th,td{
+border:2px solid rgb(66, 33, 214)
+}
+#result{
+    font-size:16px;
+    width: 547px;
+}
+/*about us*/
+#aboutus,#contactus{
+    border: 2px solid blue;
+    border-radius: 2px;
+    margin:30px;
+    padding: 14px;
+}
+/*register*/
+.register{
+    border:2px solid blue;
+}
+#calculate{
+    font-size: medium;
+}
